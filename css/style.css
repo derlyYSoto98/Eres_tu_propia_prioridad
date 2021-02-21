@@ -1,14 +1,14 @@
 h1 {
     text-align: center;
     font-size: 4em;
-    font-style: italic;
+    font-family: 'Reggae One', cursive; ;
 }
 h5 {
     text-align: right;
 }
 
 div{
-    width: 640px;
+    width: 650px;
     margin: 0 auto 0 auto;
 }
 .img.bonita {

@@ -11,23 +11,23 @@ h5 {
 
 .fuente-regular {
     font-weight: 400;
+    font-family: 'Indie Flower', cursive;;
 }
 .fuente-bold {
     font-weight: bold;
+    font-family: 'DotGothic16', sans-serif;
 }
 .fuente-900 {
     font-weight: 900;
+    font-family:'Courgette', cursive; 
+    
 }
 
-div{
+.imagen-centrada{
     width: 650px;
     margin: 0 auto 0 auto;
 }
-.img.bonita {
-    text-align: left;
-}
-.img.antes {
-    text-align: left;
+
 }
 .color-red{
     color: crimson;
@@ -46,9 +46,7 @@ div.menu {
     background-color: rgb(37, 150, 190)
     ;
 }
-div.izquierda {
-    text-align: left;
-}
+
 
 
 p {

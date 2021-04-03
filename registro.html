@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <title>registro</title>
+</head>
+<body background="img/6.jpg">
+    
+    <h1>  Registrate para acceder a nuestros beneficios!  </h1>
+    <form action="registrarinfo.html" method="post">
+        <fieldset>
+            <legend>Por favor ingrese la informacion requerida en todos los campos.</legend> <br> <br>
+        Nombre (s): <br>
+       <input type="text" name="nombre" > <br> <br>
+       Apellido (s): <br> 
+       <input type="text" name="apellido" > <br> <br>
+       Cedula de ciudadania:<br>
+       <input type="number" name="cedula"> <br> <br>
+       Fecha de nacimiento dd/mm/aaaa: <br>
+       <input type="date" name="fecha">><br> <br>
+       Numero de contacto: <br>
+       <input type="tel" name="movil" >> <br> <br> 
+       Correo Electronico <br>
+       <input type="email" name="email"> <br> <br> 
+       Crea una contraseña (minimo 8 caracteres) <br>
+       <input type="text" name="contraseña" > <br> <br>
+       Confirmar contraseña <br>
+       <input type="password" name="contraseña"><br> <br>
+
+       Genero <br>
+       <input type="radio" name="genero" value="femenino"> Femenino. <br>
+       <input type="radio" name="genero" value="masculino"> Masculino. <br>
+       <input type="radio" name="genero" value="Indefinido"> Prefiero no Responder. <br> <br>
+      Direccion de residencia <br> <br>
+        Departamento: <br>
+        <select name="departamento">
+            <option value="seleccion">Selecciona</option> <br>
+               <option value="huila">Huila</option> <br>
+               <option value="caqueta">Caqueta</option><br>
+               <option value="tolima">Tolima</option><br>
+               <option value="putumayo">Putumayo</option><br>
+               <option value="meta">Meta</option><br>
+               <option value="nariño">Nariño</option><br>
+               <option value="risaralda">Risaralda</option><br>
+               <option value="bolivar">Bolivar</option><br>
+               <option value="amazonas">Amazonas</option><br>
+               <option value="antioquia">Antioquia</option><br>
+               <option value="vaupes">Vaupes</option><br>
+               <option value="sucre">Sucre</option><br>
+               <option value="caldas">Caldas</option><br>
+            </select> <br> <br>
+                Direccion local (municipio y barrio o vereda): <br>
+                <input type="text" name="direccion" > <br> <br>
+
+       Que categorias son de su interes! <br>
+       <input type="checkbox" name="categoria" value="fragancia"> Fragancias <br>
+       <input type="checkbox" name="categoria" value="maquillaje"> Maquillaje <br>
+       <input type="checkbox" name="categoria" value="cuidadoper"> Cuidado Personal <br>
+       <input type="checkbox" name="categoria" value="bijouteria"> Bijouteria <br>
+       <input type="checkbox" name="categoria" value="liquidacion"> Productos en oferta <br> <br>
+
+     Tienes alguna duda? Por favor escribela aqui <br>
+       <textarea name="pregunta"  cols="50" rows="4"></textarea> <br> <br>
+       <input type="submit" value="Enviar">
+  </fieldset>
+  </form>
+  <a href="index.html"> Regresar a la pagina principal</a>
+</body>
+</html>

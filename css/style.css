@@ -7,13 +7,16 @@ h5 {
     text-align: right;
 }
 h2 {
+    font-family:'Sedgwick Ave Display', cursive ;
     color: red
+
 }
 .registro {
     text-align: right;
     font-size: 20px;
     font-family: 'Fontdiner Swanky', cursive;
     display: inline;
+    color: honeydew;
 }
 
 
@@ -43,7 +46,7 @@ h2 {
     color: crimson;
 }
 .color-blue {
-   color: darkcyan;
+   color: rgb(9, 128, 128);
 }
 h1.titulo-menu {
     text-align: left;
@@ -63,7 +66,7 @@ p {
     text-align: justify;
     margin-right: 3em;
     margin-left: 3em;
-    font-family:'Kaushan Script' ;
+    font-family:'Supermercado One','Kaushan Script' ;
 }
 
 
@@ -125,12 +128,100 @@ p {
     height: 30px;
     background-color: #b8f48c;
 }
+/*Espaciado */
 
+.letra-largo{
+    letter-spacing: 3em;
+    color: darkcyan;
+}
+.letra-corto{
+    letter-spacing: -.1em;
+    color: darkcyan;
+}
+.palabra-largo{
+    word-spacing: 2em;
+    color: gray;
+}
+.palabra-corto{ 
+    word-spacing: -.3em;
+    color: gray;
+    
+}
+.linea-largo{
+line-height: 3em;
+color:darkgoldenrod;
+}
+.linea-corto{
+    line-height: .6em;
+    color:darkgoldenrod
+}
 
+/*el uso de alineaciones, márgenes, bordes y espaciados en html*/
 
-
-
-
+.margin{
+    margin: 0;
+    font-family: 'Butterfly Kids', cursive;
+}
+.uno{
+    background-color: deepskyblue;
+    margin-left: 40px;
+    margin-right: 8px;
+    display: inline-block;
+    border: 10px solid black;
+    color: blanchedalmond;
+    padding: 1.5em;
+    width: 150px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.dos{
+    background-color: rgb(157, 255, 0);
+    margin-left: 40px;
+    margin-right: 8px;
+    display: inline-block;
+    border: 10px dotted rgb(119, 49, 49);
+    color: blanchedalmond;
+    padding: 1.5em;
+    width: 150px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.tres{
+    background-color: rgb(255, 174, 0);
+    margin-left: 40px;
+    margin-right: 8px;
+    display: inline-block;
+    border: 10px dashed rgb(214, 198, 198);
+    color: blanchedalmond;
+    padding: 1.5em;
+    width: 150px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.cuatro{
+    background-color: rgb(204, 0, 255);
+    margin-left: 40px;
+    margin-right: 8px;
+    display: inline-block;
+    border: 10px double rgb(155, 238, 0);
+    color: blanchedalmond;
+    padding: 1.5em;
+    width: 150px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.cinco{
+    background-color: rgb(218, 96, 15);
+    margin-left: 40px;
+    margin-right: 8px;
+    display: inline-block;
+    border: 10px groove rgb(51, 132, 143);
+    color: blanchedalmond;
+    padding: 1.5em;
+    width: 150px;
+    font-size: 1.3em;
+    text-align: justify;
+}
 
 
 

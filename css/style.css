@@ -48,16 +48,19 @@ h2 {
 .color-blue {
    color: rgb(9, 128, 128);
 }
+/*
 h1.titulo-menu {
     text-align: left;
-    color: ghostwhite;
-    font-size: 2em;
+    color: rgb(62, 62, 73);
+    font-size: 2em; */
 }
-div.menu {
+.menu {
     width: 100%;
-    height: 60px;
-    background-color: rgb(37, 150, 190);
+    height: 100px;
+    background-color: rgb(250, 13, 13);
     display: inline;
+    margin-left: 100px;
+    
 }
 
 
@@ -162,7 +165,7 @@ color:darkgoldenrod;
     margin: 0;
     font-family: 'Butterfly Kids', cursive;
 }
-.uno{
+.uno, .dos, .tres, .cuatro,.cinco{
     background-color: rgb(48, 168, 207);
     margin-left: 40px;
     margin-right: 8px;
@@ -176,53 +179,44 @@ color:darkgoldenrod;
 }
 .dos{
     background-color: rgb(121, 177, 32);
-    margin-left: 40px;
-    margin-right: 8px;
-    display: inline-block;
     border: 10px dotted rgb(119, 49, 49);
     color: blanchedalmond;
     padding: 1.5em;
-    width: 150px;
-    font-size: 1.3em;
-    text-align: justify;
+    
 }
 .tres{
     background-color: rgb(255, 174, 0);
-    margin-left: 40px;
-    margin-right: 8px;
-    display: inline-block;
     border: 10px dashed rgb(214, 198, 198);
     color: blanchedalmond;
-    padding: 1.5em;
-    width: 150px;
-    font-size: 1.3em;
-    text-align: justify;
+ 
 }
 .cuatro{
     background-color: rgb(204, 0, 255);
-    margin-left: 40px;
-    margin-right: 8px;
-    display: inline-block;
     border: 10px double rgb(155, 238, 0);
     color: blanchedalmond;
-    padding: 1.5em;
-    width: 150px;
-    font-size: 1.3em;
-    text-align: justify;
+   
 }
 .cinco{
     background-color: rgb(218, 96, 15);
-    margin-left: 40px;
-    margin-right: 8px;
-    display: inline-block;
     border: 10px groove rgb(51, 132, 143);
     color: blanchedalmond;
-    padding: 1.5em;
-    width: 150px;
-    font-size: 1.3em;
-    text-align: justify;
+ 
 }
+.a, .b, .c, .d {
+    /*background-color: bisque;*/
+    border-radius: 4px;
+    margin: 20px;
+    width: 240px;
+    display: inline-block;
+    line-height: 0.1;
+    text-align: center;
+    font-family: fantasy;
+    margin-left: 80px;
 
+}
+.pa {
+    font-family: fantasy;
+}
 
 
 

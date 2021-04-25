@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: darkcyan;
+    font-family: 'Eater', cursive;;
+}
+img{
+    margin: 0 20px;
+}
+area {
+    outline-color: red ;
+}

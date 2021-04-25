@@ -1,0 +1,48 @@
+.uno, .dos, .tres,.cuatro {
+    /* background: rgb(235, 230, 230); */
+    border-radius: 4px;
+    margin: 20px;
+    width: 250px;
+    display: inline-block ;
+   line-height:0.1; 
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+body{
+    text-align: center;
+    color: rgb(197, 34, 34);
+    margin: 0;
+    border: 0;
+}
+
+img{
+    display: block;
+     text-align: center;
+     margin: 0 auto;
+     
+}
+
+#titulo-uno{
+    font-size: 1em;
+    color: forestgreen;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+}
+#dos{
+    font-size: 1em;
+    color: rgb(188, 10, 233);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+P{
+    color: rgb(77, 2, 2);
+    font-style: unset;
+    font-family:fantasy;
+}

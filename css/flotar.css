@@ -1,0 +1,33 @@
+.lemur {
+    float: left;
+    margin-right: 20px;
+    
+}
+.texto {
+    margin: 20px;
+    text-align: justify;
+}
+.osoima{
+    float: right;
+    margin: 20px;
+}
+.texoso{
+    margin: 20px;
+    text-align: justify;
+}
+.perroima{
+    
+  display: block;
+  margin: 0 auto;
+}
+.perrotex{
+    margin: 20px;
+    text-align: justify;
+}
+.mapa-mundo{
+    display: block;
+    margin: 0 auto;
+}
+area{
+    outline-color: goldenrod;
+}

@@ -1,0 +1,26 @@
+ul{
+    text-align: right;
+    background-color: darkcyan;
+    color: honeydew;
+    font-family: 'Grenze', serif; 
+}
+.uno{
+display: inline;
+margin-left: 30px;
+
+}
+li{
+    font-size: 30px;
+}
+.ico{
+  text-align: left;
+  list-style-image: url("../img/icon-32x24.jpg");
+}
+
+.tres{
+    text-align: left;
+    list-style-image: url("../img/icono-32x24.png");
+}
+.icon, .cinco{
+    margin-left: 30px;
+}

@@ -17,6 +17,7 @@ h2 {
     font-family: 'Fontdiner Swanky', cursive;
     display: inline;
     color: honeydew;
+    /* background-color: aquamarine; */
 }
 
 
@@ -57,7 +58,7 @@ h1.titulo-menu {
 .menu {
     width: 100%;
     height: 100px;
-    background-color: rgb(250, 13, 13);
+    background-color: rgb(114, 10, 10);
     display: inline;
     margin-left: 100px;
     

@@ -21,6 +21,10 @@ li{
     text-align: left;
     list-style-image: url("../img/icono-32x24.png");
 }
-.icon, .cinco{
+.icon, .cinco, .seis{
     margin-left: 30px;
+}
+.seis{
+    text-align: left;
+    list-style-image: url("../img/parfum-32x24.jpg");
 }

@@ -11,14 +11,14 @@ h2 {
     color: red
 
 }
-.registro {
+ /*.registro {
     text-align: right;
     font-size: 20px;
     font-family: 'Fontdiner Swanky', cursive;
     display: inline;
     color: honeydew;
-    /* background-color: aquamarine; */
-}
+    background-color: aquamarine; 
+}*/
 
 
 /* Fuentes por su peso */
@@ -55,14 +55,14 @@ h1.titulo-menu {
     color: rgb(62, 62, 73);
     font-size: 2em; */
 }
-.menu {
+/* .menu {
     width: 100%;
     height: 100px;
     background-color: rgb(114, 10, 10);
     display: inline;
     margin-left: 100px;
     
-}
+} */
 
 
 p {

@@ -1,0 +1,89 @@
+ul{
+    text-align: right;
+    font-family: 'Iceland', cursive;
+    background-color:rgb(238, 88, 88);
+    color: white;
+    font-size: 1em;
+    font-weight: 30px;
+    /* height: 70px; */
+}
+li{
+    display: inline-block;
+   padding: 10px;
+}
+a.registro{
+    text-decoration: none;
+    color: white;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a.registro:hover{
+   color: yellow; 
+    font-size: 1.2em;
+}
+
+td, th {
+    border: solid 3px rgb(200, 200, 200);
+    padding: 10px;
+    font-family: 'Enriqueta', serif;
+    font-size: 1.8;
+}
+ th{
+  padding-bottom: 0;    
+ }
+   
+
+table{
+   /*  background-color: lightgray; */
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.2em;
+    border-collapse: collapse; 
+}
+.premiuncolor{
+    background-color: rgb(236, 236, 236);
+}
+.productocolor{
+    background-color: rgb(24, 209, 204);
+    border: 1px solid  rgb(24, 209, 204); 
+}
+.coloresika{
+    background-color: rgb(138, 193, 73);
+    border: 1px solid rgb(138, 193, 73) ;
+}
+.colorbel{
+    background-color: rgb(254, 202, 40);
+    border: 1px solid rgb(254, 202, 40) ;
+}
+.colorcy{
+    background-color: rgb(243, 65, 53);
+    border: 1px solid rgb(243, 65, 53) ;
+}
+.ima {
+    border-top-left-radius: 40px;
+}
+#blancp{
+    color: rgb(236, 236, 236);
+}
+.arriba, .abajo{
+    background-color:rgb(200, 200, 200);
+    padding-bottom: 0;
+}
+ .abajo{
+     font-size: 15px;
+     padding-top: 0%;
+ }  
+ .arriba{
+     font-size: 1.5em;
+     border-top-right-radius: 50px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+ } 
+ table{
+     border-top-right-radius: 0;
+ }

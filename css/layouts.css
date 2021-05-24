@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    text-align: right;
+    font-family: 'Iceland', cursive;
+    background-color:rgb(238, 88, 88);
+    color: white;
+    font-size: 1em;
+    font-weight: 30px;
+    /* height: 70px; */
+}
+li{
+    display: inline-block;
+   padding: 10px;
+}
+a.registro{
+    text-decoration: none;
+    color: white;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a.registro:hover{
+   color: yellow; 
+    font-size: 1.2em;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.uno{
+    background-color: aqua;
+}

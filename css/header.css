@@ -1,0 +1,37 @@
+body{
+    width: 85%;
+    margin: 0 auto;
+}
+#nav-bar{
+    width: 100%;
+    background-color: rgb(255, 0, 0,.9);
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#nav-bar-hidden{
+    width: 100%;
+    background-color: rgb(255, 0, 0,.5);
+    color: white;
+   visibility: hidden;
+    left: 0;
+    top: 0;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+.registro{
+    text-decoration: none;
+    color: white;
+}
+.logo-menu{
+    float: left;
+    margin-top: 5px;
+}
+p{
+    font-size: 1.2em;
+    text-align: justify;
+    clear: both;
+}

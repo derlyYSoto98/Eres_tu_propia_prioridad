@@ -1,0 +1,19 @@
+#main{
+    background-image: url(../img/Mario-Bros-png-transparente.png);
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 10%;
+}
+
+body{
+    background-image: url("../img/playa-original.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-size: cover; 
+    /* background-size: auto;  tamaño original de la imagen*/
+} */
+h1{
+    color:white;
+}

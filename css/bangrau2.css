@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    width: 100%;
+    position: absolute;
+}
+li{
+    display: inline-block;
+    font-size: 2em;
+    padding: 1em;
+}
+ul{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.img-principal{
+ width: 100%;
+}
+p{
+    font-size: 1.8em;
+
+}
+#conter-prin{
+    margin: 4em 2em;
+    text-align: justify;
+}

@@ -4,7 +4,7 @@ body{
 }
 #nav-bar{
     width: 100%;
-    background-color: rgba(92, 44, 44, 0.9);
+    background-color: rgba(255, 0, 0, 0.9);
     color: white;
     position: fixed;
     left: 0;
@@ -12,7 +12,7 @@ body{
 }
 #nav-bar-hidden{
     width: 100%;
-    background-color: rgb(255, 0, 0,.5);
+    background-color: rgba(255, 2, 2, 0.5);
     color: white;
    visibility: hidden;
     left: 0;

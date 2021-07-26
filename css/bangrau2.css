@@ -6,15 +6,16 @@
 #nav-bar{
     width: 100%;
     position: absolute;
+    margin-top: 90px;
 }
-li{
+.prueba{
     display: inline-block;
     font-size: 2em;
     padding: 1em;
 }
-ul{
+/* .clas{
     text-align: right;
-}
+} */
 
 a{
     text-decoration: none;

@@ -1,0 +1,73 @@
+body{
+    background-color: #252528; 
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: white; 
+    transition: all .3s; 
+}
+.menu li{
+    box-shadow: 3px 0 rgb(255,255,255, .2 ) inset;
+    padding-left: 1.5em;
+    margin-right: 10px;
+ }
+.menu li:hover{
+   box-shadow: 17em 0 rgb(255,255,255, .2 ) inset;
+}
+.menu li a span{
+    margin-left: 9px;
+}
+.menu a:hover{
+    margin-left: 1em;
+}
+ul{
+  list-style: none;
+  margin-top: 60px;
+}
+
+.fas, .fab{
+    color: rgb(238, 238, 238);
+    font-size: 1.7em;
+    margin-right: 0.4em;
+}
+nav{
+    border-right: 1px solid #eaeaea; 
+    background-color: rgb(0,0,0, .8);
+    position: absolute;
+    left:0;
+    height: 100%;
+    top: 0;
+    padding-right: 2em;
+    padding-top: 3em;
+    z-index: 5;
+    left: -270px;
+    transition: all .3s;
+}
+li{
+    padding: 1.5em 1.2em;
+}
+.fa-bars{
+    position: absolute;
+    cursor: pointer;
+    left: 2em;
+    top: 2em;
+    z-index: 10;
+}
+
+.mostrar-nav{
+    left: 0;
+} 
+h1{
+    text-align: center;
+}
+h1, article{
+    color: rgb(210, 210, 210);
+}
+article{
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 5em;
+ line-height: 1.5em;
+}

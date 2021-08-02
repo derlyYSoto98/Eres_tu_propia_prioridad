@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    text-align: right;
+    font-family: 'Iceland', cursive;
+    color: white;
+    font-size: 1em;
+    list-style: none;
+}
+li{
+    display: inline-block;
+   padding: 10px;
+   text-decoration: none;
+}
+.aprendizaje{
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    float: left;   
+}
+.parrafo{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.children{
+display: none;
+     position: absolute;
+     width: 150%; 
+     background: #011826;
+     text-align: left;
+}
+.children li{
+    display: block;
+    border-top: 1px solid rgba(255, 255,255,.5);
+}
+.menu_bar{
+    display: none;
+}
+@media screen and (max-width: 830px){
+    body{
+        padding-top: 80px;
+    }
+    .menu_bar{
+        display: block;
+        background: rgb(222,1,8);
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
+     nav ul li{
+         display: block;
+    }
+    nav{
+        position: fixed;
+        right: 100%;
+    }
+}

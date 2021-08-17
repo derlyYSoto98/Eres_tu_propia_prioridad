@@ -1,0 +1,10 @@
+form{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    position: relative;
+}
+.caja{
+    border: none;
+    border-bottom: 1px solid black;
+}

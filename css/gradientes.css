@@ -1,0 +1,35 @@
+:root{
+    --primary: #bdc3c79f;
+    --secondary: #2c3e509f;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-conter{
+   /* background: linear-gradient(blue, red), url(../img/buscar.jpg); */
+   /*  background:linear-gradient(225deg,goldenrod,rgb(220, 8, 0),rgb(144,12,144), blue); */
+    background: linear-gradient(135deg, var(--primary), var(--secondary)), url(../img/buscar.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;  
+}
+.box-titulo{
+   /*  position: fixed; */
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 950px;
+    font-style: italic;
+    color: white;
+    font-family: 'Sriracha', cursive;
+}
+.box-frase{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    color: whitesmoke;
+    font-size: 2em;
+}
+h1{
+    font-size: 200px;
+}

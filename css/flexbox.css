@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+}
+.container-flex-1{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+.container-flex-2{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.container-flex-3{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-flex-4{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container-flex-5{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+.container-flex-6{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    /* flex-wrap: row nowrap; */
+    flex-flow: row-reverse nowrap;
+}
+.container-flex-7{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.container-flex-8{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+}
+.container-flex-9{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+}
+.container-flex-10{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.container-flex-11{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+.container-flex-12{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-flex-13{
+    background-color: rgb(189, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(167, 233, 181);
+    color: rgb(243, 237, 237);
+    font-size: 2em;
+    margin: 20px;
+}

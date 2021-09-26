@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(253, 244, 244);
+}
+.main-conter{
+  display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+   grid-template-rows: 1fr 1fr 1fr ;
+   width: 60%; 
+   /*  max-width: 1000px; */
+    /* border: 10px solid black; */ 
+    margin: 0 auto;
+    text-align: center; 
+    font-size: 1em; 
+    grid-gap: 15px;
+    margin-top: 100px;
+}
+ .main-conter > div{
+    display: block;
+    background-color: #69a8ae; 
+    padding: 15px;
+    color: rgb(247, 242, 242);
+    font-weight: bold; 
+    font-family: 'Yatra One', cursive;
+    justify-items: center;
+    border: 2px solid rgb(34, 87, 84) ;
+    font-family: 'Chewy', cursive;
+    border-radius: 20px;
+} 
+
+.main-conter .item1{
+    background-color: rgb(144, 124, 236);
+    grid-column-start: 7;
+    grid-column-end: 8; 
+}
+.main-conter .festivo{
+    background-color: rgb(144, 124, 236);
+}
+.main-conter .titulo{
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    border-bottom: 2px solid black;
+    color: rgb(8, 8, 8);
+    font-family: 'Neucha', cursive;
+    font-size: 1em;
+   
+}
+.main-conter .dia{
+    background-color: rgb(211, 142, 225);
+}
+.main-conter .domingo{
+    background-color: rgb(174, 159, 238);
+}
+
+@media only screen and (max-width:800px )/*  and (max-width:1067px) */{
+    body{
+        background-color: rgb(224, 155, 242);
+    }
+    .main-conter > div{
+        /* width: 70px; */
+        display: block;
+        background-color: #69a8ae; 
+        padding: 5px;
+        color: rgb(247, 242, 242);
+        font-weight: bold; 
+        font-family: 'Yatra One', cursive;
+        justify-items: center;
+        border: 2px solid rgb(34, 87, 84) ;
+        font-family: 'Chewy', cursive;
+        border-radius: 20px; 
+    }
+    .main-conter{
+        /* display: grid; */
+         grid-template-columns: 70px 70px 70px 70px 70px 70px 70px; 
+         grid-template-rows: 1fr 1fr 1fr ;
+        /* width:auto; 
+           max-width: 1000px; */
+          /* border: 10px solid black; */ 
+          margin: 0 auto;
+          text-align: center; 
+          font-size: 1em; 
+          /* grid-gap: 15px;
+          margin-top: 100px; */
+      }
+}

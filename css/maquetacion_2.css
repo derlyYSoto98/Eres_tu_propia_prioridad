@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    display: flex;
+    justify-content: end;
+}
  .articles{
     grid-gap: 30px;
 /*     margin: 12%; */

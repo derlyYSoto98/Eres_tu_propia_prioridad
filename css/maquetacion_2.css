@@ -3,23 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul{
-    display: flex;
-    justify-content: end;
-}
+ .main-conter{
+    /* grid-gap: 15px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template: "header   nav      nav " 50px 
+ }  
  .articles{
-    grid-gap: 30px;
-/*     margin: 12%; */
+   margin: 80px auto;
+    width: 50%;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 400px);
-    grid-template: "header   nav      nav " 100px
-                   "section  section  section" auto
-                   "article1  article2  article3" auto
-                   "article4  article5  article6" auto
-                   "article7  article8  empty" auto
-                   "footer   footer   footer" 100px /
-                   400px      400px    400px;
+    gap: 60px;
+    grid-template: 
+                   "article1   article2  article3"  auto
+                   "article4   article5  article6"  auto
+                   "article7   article8  empty"     auto
+                   "footer     footer    footer"    100px /
+                    400px       400px    400px;
  }
  .elementStyleCSS {
     /*  border-radius: 10px; */
@@ -31,17 +33,17 @@ ul{
     color: white;
  }
  .nav{
-    background: rgb(172, 25, 25);
+    background: rgb(238, 232, 232);
     grid-area: nav;
 }
 
 .header{
-    background: rgb(19, 114, 105);
+    background: rgb(238, 232, 232);
     grid-area: header;
 }
 
 .section{
-    background-image: url(../img/spa2.jpg);
+    background-image: url(../img/spaimg.jpg);
     background-size: cover;
     background-position: center center;
     height: 400px;
@@ -84,37 +86,94 @@ width: 400px;
 p{
     padding-top: 10px;
 } 
+.borde-inferior{
+    border-bottom: 4px orange solid;
+    width: 50px;
+    padding-top: 20px;
+}
+
+
+ nav{
+    text-align: right;
+   /*  height: 70px;  */
+    border-bottom: 3px solid #e7e5e5;
+    background:#e7e5e5 ;
+    line-height: 50px;
+    /* margin-top: 70px;  */
+}
+#main-menu{
+margin: 0 30 0 0px;
+}
+#main-menu a {
+ clear: right;
+ text-decoration: none;
+ color: rgb(94, 92, 92);
+ margin-right: 20px;
+ line-height: 50px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#main-menu a:hover{
+    color: rgb(220, 220, 119);
+}
+label{
+    float: right;
+    margin: 0 17px;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
 
 
  @media only screen and (min-width:641px) and (max-width:1024px){
-    .main-conter{
-        width: 85%;
-        grid-template: "header      header"     90px 
-                       "nav         nav"        0 
-                       "section     section"    250px
+    .articles{
+        gap: 20px;
+        grid-template: 
                        "article1     article2"    auto
                        "article3     article4"    auto
                        "article5     article6"    auto
-                       "footer      footer"     auto /
-                        1fr           1fr; 
-     }
-    
-     .nav{
-        background: rgb(248, 1, 1);
-        grid-area: nav;
-        
-    }
+                       "article7     article8"    auto
+                       "footer       footer"       auto /
+                        1fr            1fr; 
+     }   
 }
 @media only screen and (max-width:640px){
-    .main-conter{
-       width: 85%;
-        grid-template: "header   "   50px
-                       "nav      "   0
-                       "section  "   200px
-                       "article  "   auto
-                       "article  "   auto
-                       "article  "   auto
-                       "footer   "   auto / 
-                        1fr ; 
+    .articles{
+       gap: 40px;
+       grid-template: 
+                       "article1  "   auto
+                       "article2  "   auto
+                       "article3  "   auto
+                       "article4  "   auto
+                       "article5  "   auto
+                       "article6  "   auto
+                       "article7  "   auto
+                       "article8  "   auto
+                       "footer   "    auto / 
+                        minmax(auto,400px) ; 
      }
+     .main-conter{
+        display: grid;
+        grid-template: "header   nav      nav " 50px 
+     }  
+     label{
+        display: block;
+        cursor:pointer;
+        margin-bottom: -17px;
+    }
+    #main-menu{
+        text-align: center;
+        display: none;
+    }
+    #main-menu a{
+        display: block;
+        background: rgba(0, 0, 0, 0.3);
+        color: white;
+        border-bottom: 3px solid #eaeaea;
+    }
+    #toggle:checked +#main-menu{
+        display: block;
+    }
 } 

@@ -127,7 +127,7 @@ label{
 }
 
 
- @media only screen and (min-width:641px) and (max-width:1024px){
+ @media only screen and (min-width:900px) and (max-width:1400px){
     .articles{
         gap: 20px;
         grid-template: 
@@ -139,7 +139,7 @@ label{
                         1fr            1fr; 
      }   
 }
-@media only screen and (max-width:640px){
+@media only screen and (max-width:899px){
     .articles{
        gap: 40px;
        grid-template: 

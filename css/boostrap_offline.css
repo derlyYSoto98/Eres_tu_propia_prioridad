@@ -19,3 +19,6 @@ h1{
 .form-check-input{
     cursor: pointer;
 }
+.card-space{
+    margin: 20px;
+}

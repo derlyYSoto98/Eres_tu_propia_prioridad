@@ -1,0 +1,11 @@
+
+[class^="col"]{
+border:2px solid rgb(17, 17, 17,.7)
+}
+[class^="container"]{
+    height: 150px;
+}
+.container-res{
+    background: rgb(61, 60, 60);
+    color: white;
+}

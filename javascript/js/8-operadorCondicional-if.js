@@ -35,8 +35,10 @@ var destinoPasajero ="Cartagena";
 var destinoOferta= "Cartagena";
 var aerolineaPasajero = "Latam";
 var aerolineaOferta = "Latam";
+var totalconEdad=0;
+var descuentoEdad=10;
 var total = 0;
 
-if (edadpasajero === 10 ) {
-    
+if (edadpasajero <= 10 ) {
+    totalconEdad = costoTiquete 
 }

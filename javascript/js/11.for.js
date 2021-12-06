@@ -17,10 +17,16 @@ var instructor = new Array(123, "CC", "32456743", 95, "TIC", "Jesus", "Calderon"
 var sedes = [24, "Yamboro", 41551, "James Ramirez"];
 
 
-console.log("Datos del Aprendiz: ");
+/* console.log("Datos del Aprendiz: ");
 for (var i = 1; i< aprendiz.length; i++) {
     console.log( aprendiz[i]);
     
+} */
+
+for (var i = 1; i<21; i+2) {
+    console.log( aprendiz[i]);
+    console.log([i]);
 }
+
 
 

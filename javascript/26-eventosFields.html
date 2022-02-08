@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento fields</title>
+    <script src="js/26-eventosFields.js"></script>
+    <link rel="stylesheet" href="css/fields.css">
+</head>
+<body>
+    <div class="formulario">
+        Nombres: <br>
+       <input type="text" class="special-fields"
+        onfocus="this.style.backgroundColor='gray'"
+        onblur="this.style.backgroundColor='purple'" > <br> <br>
+       Apellidos: <br>
+       <input type="text" class="special-fields"> 
+    </div>
+
+    <form action="" method="post" class="formulario" onsubmit="validarInfo('numeroDocumento')">
+        Numero Documento
+        <input type="text" id="numeroDocumento"> <br> <br>
+        Nombre Usuario
+        <input type="text" id="NombreUsuario"> <br> <br>
+        <input type="submit" value="Enviar..">
+    </form>
+    
+</body>
+</html>

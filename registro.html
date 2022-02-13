@@ -9,11 +9,12 @@
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <script src="js/formulario.js"></script>
     <title>registro</title>
     <link rel="stylesheet" href="css/header.css">
 </head>
-<body background="img/6.jpg">
-  <ul> 
+<body>
+ <!--  <ul> 
     <li ><a class="registro" href="index.html"> Inicio</a></li>
     <li ><a class="registro" href="registro.html"> Registrate</a></li>
     <li ><a class="registro" href="sesion.html" target="_blank"> iniciar sesion</a></li>
@@ -45,27 +46,27 @@
         <li ><a class="registro" href="layouts-float.html" target="_blank"> Layouts-float</a></li>
         <li ><a class="registro" href="header.html" target="_blank"> Header</a></li>
         </ul>
-     </div>
+     </div> -->
     <h1>  Registrate para acceder a nuestros beneficios!  </h1>
-    <form action="registrarinfo.html" method="post">
+    <form action="" method="post" onsubmit="return validacion()">
         <fieldset>
             <legend>Por favor ingrese la informacion requerida en todos los campos.</legend> <br> <br>
         Nombre (s): <br>
-       <input type="text" name="nombre" > <br> <br>
+       <input type="text" name="nombre" id="nom"> <br> <br>
        Apellido (s): <br> 
-       <input type="text" name="apellido" > <br> <br>
+       <input type="text" name="apellido" id="ape" > <br> <br>
        Cedula de ciudadania:<br>
-       <input type="number" name="cedula"> <br> <br>
+       <input type="number" name="cedula" id="ced"> <br> <br>
        Fecha de nacimiento dd/mm/aaaa: <br>
-       <input type="date" name="fecha">><br> <br>
+       <input type="date" name="fecha" id="fec"><br> <br>
        Numero de contacto: <br>
-       <input type="tel" name="movil" >> <br> <br> 
+       <input type="tel" name="movil" id="mov"> <br> <br> 
        Correo Electronico <br>
-       <input type="email" name="email"> <br> <br> 
+       <input type="email" name="email" id="ema"> <br> <br> 
        Crea una contraseña (minimo 8 caracteres) <br>
-       <input type="text" name="contraseña" > <br> <br>
+       <input type="text" name="contraseña" id="cont"> <br> <br>
        Confirmar contraseña <br>
-       <input type="password" name="contraseña"><br> <br>
+       <input type="password" name="contraseña" id="contra"><br> <br>
 
        Genero <br>
        <input type="radio" name="genero" value="femenino"> Femenino. <br>
@@ -73,7 +74,7 @@
        <input type="radio" name="genero" value="Indefinido"> Prefiero no Responder. <br> <br>
       Direccion de residencia <br> <br>
         Departamento: <br>
-        <select name="departamento">
+        <select name="departamento" id="depar">
             <option value="seleccion">Selecciona</option> <br>
                <option value="huila">Huila</option> <br>
                <option value="caqueta">Caqueta</option><br>
@@ -90,10 +91,10 @@
                <option value="caldas">Caldas</option><br>
             </select> <br> <br>
                 Direccion local (municipio y barrio o vereda): <br>
-                <input type="text" name="direccion" > <br> <br>
+                <input type="text" name="direccion" id="muni" > <br> <br>
 
        Que categorias son de su interes! <br>
-       <input type="checkbox" name="categoria" value="fragancia"> Fragancias <br>
+       <input id="categoria" type="checkbox" name="categoria" value="fragancia"> Fragancias <br>
        <input type="checkbox" name="categoria" value="maquillaje"> Maquillaje <br>
        <input type="checkbox" name="categoria" value="cuidadoper"> Cuidado Personal <br>
        <input type="checkbox" name="categoria" value="bijouteria"> Bijouteria <br>
@@ -101,7 +102,7 @@
 
      Tienes alguna duda? Por favor escribela aqui <br>
        <textarea name="pregunta"  cols="50" rows="4"></textarea> <br> <br>
-       <input type="submit" value="Enviar">
+       <input type="submit" value="Enviar" onclick="validarInfo()">
   </fieldset>
   </form>
   <a href="index.html"> Regresar a la pagina principal</a>

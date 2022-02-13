@@ -1,10 +1,14 @@
+body{
+    background: url(../img/6.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh
+}
 h1{
     text-align: center;
     font-family: 'Gochi Hand', cursive;
     font-size: 3em;
     color: #000080;
 }
-
 form {
     width: 50%;
     margin: 0 auto 0 auto;
@@ -13,4 +17,5 @@ fieldset {
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 

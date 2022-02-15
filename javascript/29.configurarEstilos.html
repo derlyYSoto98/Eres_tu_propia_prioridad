@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/29.configurarEstilos.css">
+    <script src="js/29.configurarEstilos.js"></script>
+    <title>Configurar estilos desde javascript</title>
+</head>
+<body>
+    <h1>Configurando estilos desde javascript</h1>
+    <p id="parrafoPrincipal" onmouseover="fuenteGrande();">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non a molestias quibusdam maiores repellat inventore architecto, itaque nam sed accusamus praesentium tempora odit labore iure commodi tempore temporibus rem dolore?</p>
+    
+    <p id="segundoParrafo" onmouseover="fuenteEspecial();">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cum fuga pariatur accusamus cumque a, nulla fugiat laborum perferendis exercitationem ipsa, quod, ex voluptatum explicabo?</p>
+    <h2>Imagen desaparece al pasar el cursor por encima</h2>
+    <img id="imgArbol" src="img/arbol.jpg" onmouseover="imgInvisible();" onmouseleave="mostrarImagen();">
+    <h2>Esta imagen se mueve un poco a la derecha</h2>
+    <img id="imgLago" src="img/fondolo.jpg" onmouseover="configurarMargenes();" onmouseleave="restablecerMargenes();">
+    <h2>Esta imagen se mueve a la derecha a pasar el mause por encima</h2>
+    <img id="imgPerro" src="img/perro.jpg" onmouseover="flotarDerecha();" onmouseleave="restablecerPosicion();">
+</body>
+</html>

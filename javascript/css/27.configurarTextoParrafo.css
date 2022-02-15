@@ -1,0 +1,8 @@
+.main-conten{
+      margin:  0 auto;
+      width: 400px;
+      display: block;
+}
+a:hover{
+    color:red;
+}

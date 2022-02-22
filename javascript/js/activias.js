@@ -1,19 +1,15 @@
 
 function otraImagenes(ruta){
     document.getElementById("imgPrincipal").src = ruta;
+   
     /* alert(ruta); */
 }
 
-
-
-
-
-
-
-
-/* function retornoImagen(){
+ 
+/*  document.getElementById('imgUno').src = "img/1Brave1.jpg" ;
+function retornoImagen(){
     document.getElementById('imgUno').src = "img/1Brave1.jpg" ;
-} 
+}
 function otraImagenes2(id, ruta){
     document.getElementById(id).src = ruta;
 }

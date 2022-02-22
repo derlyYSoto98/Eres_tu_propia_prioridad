@@ -1,0 +1,40 @@
+.header, .nav, .article, .aside, .section,.section2, .section3{
+    padding: 20px;
+    font-size:1.6em;
+    border: 1px solid green;
+    text-align: center;
+    color: rgb(5, 5, 5);
+
+}
+.main-conten{
+    border: 1px solid black;
+    width: 250px;
+    display: grid;
+    grid-template:"header    header"    50px
+                  "nav       nav"       50px
+                  "article   aside"    100px
+                  "section   section2"   50px
+                  "empty   section3"   50px/
+                  120px 120px;
+} 
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.article{
+    grid-area: article;
+}
+.aside{
+    grid-area: aside;
+}
+section{
+    grid-area: section;
+}
+.section2{
+    grid-area: section2;
+}
+.section3{
+    grid-area: section3;
+}

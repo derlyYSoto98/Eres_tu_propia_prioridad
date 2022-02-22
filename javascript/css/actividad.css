@@ -28,8 +28,15 @@ body{
 .g-img{
     padding: 0 20px 20px;
 }
-img:hover{
+.g-img img:hover{
     opacity: .7;
     transition: .11s;
     transform: rotate(-5deg);
+}
+.principal{
+    background: red;
+}
+.principal img{
+    width: 100%;
+    height: 50%;
 }

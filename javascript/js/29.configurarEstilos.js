@@ -13,6 +13,7 @@ function imgInvisible(){
 function mostrarImagen(){
     document.getElementById("imgArbol").style.visibility ="visible";
 }
+
 function configurarMargenes(){
     document.getElementById("imgLago").style.margin= "30px 0 30px 50px";
 }

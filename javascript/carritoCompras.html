@@ -5,17 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/carritoCompras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../icons/all.css">
+
     <title>Carrito de Compras</title>
 </head>
 <body>
-    <div class="main-conten">
+  <!--   <div class="main-conten">
         <header class="header">Subtotal</header>
-        <nav class="nav">Pago</nav>
-        <article class="article">img</article>
-        <aside class="aside">texto</aside>
+        <div class="pago">
+         <nav class="nav">Pago</nav>
+        </div>
+        <article class="article"><img src="img/libro229x300.jpg" alt=""></article>
+        <aside class="aside">aside</aside>
         <section class="section">cantidad </section>
         <section class="section2">eliminar </section>
         <section class="section3">Guardar </section>
+    </div> -->
+
+    <br> <br> <br>
+    <div class="contenedor">
+        <div class="subtotal">Subtotal  ---- cop</div>
+        <div id="subtotal" onclick="mostrarprecio()" class="precio">$</div>
+        <div class="pedido">No a seleccionado ningun producto</div>
+        <div class="item3"><img src="img/libro229x300.jpg" alt=""> </div>
+        <div class="item6">Javascript The Definitive Guide
+            Master the World's Most-Used 
+            Programing Language</div>
+        <div class="itemautor">por David Flanagan</div>
+        <div class="tapa">Tapa Blanca</div>
+        <div id="precioUnitario" class="precio2">cop:112350</div>
+        <div class="cantidad">
+            <input id="resta" type="button" value="-" onclick="restarpedido()">
+            <label id="valor">1</label>
+            <input id="suma" type="button" value="+" onclick="sumarPedido()">
+            
+        </div>
+        <div><input class="eliminar" type="button" value="Eliminar"></div>
+        <div class="item4"><input type="button" value="Guardar para mas tarde" class="guardar"></div>
     </div>
+    <script src="js/carritoCompras.js"></script>
 </body>
 </html>

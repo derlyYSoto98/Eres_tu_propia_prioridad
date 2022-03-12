@@ -49,7 +49,7 @@ function registrarProducto() {
     let txtCodigo= document.createTextNode(inputCodigo);
     tdCodigo.appendChild(txtCodigo);
 
-    let inputDescripcion = document.getElementById("descripcion").value;
+    let inputDescripcion = document.getElementById("descripcion").value.trim();
     let trDescirpcion= document.createElement("tr");
     nodoTabla.appendChild(trDescirpcion);
     let tdDescripcion = document.createElement("td");
@@ -57,11 +57,32 @@ function registrarProducto() {
     let texDescripcion = document.createTextNode(inputDescripcion);
     tdDescripcion.appendChild(texDescripcion);
 
+    let inputValorUnitario = document.getElementById("valorUnitario").value.trim();
+    let trValorUnitario= document.createElement("tr");
+    nodoTabla.appendChild(trValorUnitario);
+    let tdValorUnitario = document.createElement("td");
+    trProducto.appendChild(tdValorUnitario);
+    let texValorUnitario = document.createTextNode(inputValorUnitario);
+    tdValorUnitario.appendChild(texValorUnitario);
+
+    let inputStock = document.getElementById("stock").value.trim();
+    let trStock= document.createElement("tr");
+    nodoTabla.appendChild(trStock);
+    let tdStock = document.createElement("td");
+    trProducto.appendChild(tdStock);
+    let texStock = document.createTextNode(inputStock);
+    tdStock.appendChild(texStock);
+
+
+
     limpiarFormulario();
 
 }
 function limpiarFormulario() {
     document.getElementById("codigo").innerHTML="";
+    document.getElementById("descripcion").innerHTML="";
+    document.getElementById("valorUnitario").innerHTML="";
+    document.getElementById("stock").innerHTML="";
 }
 
 function validarFormulario(){
@@ -70,7 +91,24 @@ function validarFormulario(){
         document.getElementById("codigo").focus();
         return false;
     }
+    
+    if (document.getElementById("descripcion").value.trim()=="") {
+        alert("Por favor, ingrese la descripcion del producto");
+        document.getElementById("descripcion").focus();
+        return false;
+    }
 
+    if (document.getElementById("valorUnitario").value.trim()=="") {
+        alert("Por favor, ingrese el valor unitario del producto");
+        document.getElementById("valorUnitario").focus();
+        return false;
+    }
+
+    if (document.getElementById("stock").value.trim()=="") {
+        alert("Por favor, ingrese el stock del producto");
+        document.getElementById("stock").focus();
+        return false;
+    }
 
     return true;
 

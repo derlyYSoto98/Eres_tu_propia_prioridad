@@ -5,28 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tablaProductosJavascripr.css">
+    <link rel="stylesheet" href="css/tablaProductos.css">
     <title>Registro de Productos</title>
 </head>
 <body>
+    <form action="" method="post">
+        <fieldset>
+            <h1>Registro de Productos</h1>
+            <div class="main-conten"> 
+                <div class="nombre">Codigo del producto</div>
+                <input type="text" name="codigo" id="codigo" class="uno" >
+                <div class="descri">Descripcion</div>
+                <input type="text" name="descripcion" id="descripcion" class="dos">
+                <div class="valor">Valor Unitario</div>
+                <input type="text" name="valorUnitario" id="valorUnitario" class="tres">
+                <div class="stock">Unidades en Stock</div>
+                <input type="number" name="stock" id="stock" class="cuatro">
+                <input type="button" value="Cargar producto" onclick="cargarProducto()" class="siete">
+             </div>
+        </fieldset>
+        </form>
 
-    <div class="content">      
-        <form >
-            <!-- <fieldset> -->
-                <h1>Registro de Productos</h1>
-                <div class="formulario">
-                    <label >Codigo del producto </label>
-                    <input type="text" id="codigo"> <br><br>
-                    <label>Descripcion</label>
-                    <input type="text" id="descripcion"><br><br>
-                    <label >Valor Unitario</label>
-                    <input  type="text" id="valorUnitario">
-                    <label >Unidades en Stock</label>
-                    <input type="text" id="stock"><br><br>
-                     <input type="button" value="Cargar Producto" onclick="cargarProducto()">          
-                </div>                      
-            <!-- </fieldset> -->
-        </form>     
-    </div>
     <div id="table_js"> </div> 
   
     <script src="js/tablaProductos.js"></script>

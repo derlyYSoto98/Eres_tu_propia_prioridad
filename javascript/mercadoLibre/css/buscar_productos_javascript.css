@@ -38,7 +38,8 @@ input[type="text"]{
     justify-content: center;
 }
 #main_content{
-    margin-left: 2%; 
+    margin:0 2% 0 2%;
+    font-family: 'Lato', sans-serif; 
 }
 .style_contenImg{
     display: grid;
@@ -46,29 +47,54 @@ input[type="text"]{
                    "styleImagen       style-modelo"   35px
                    "styleImagen       style-anyo"     35px
                    "styleImagen       empty"          auto / 
-                    auto              1fr;
-    /* border-bottom: 1px solid gray; */
+                    8fr               6fr;
+     border-bottom: 1px solid gray; 
     padding: 1%;
-    /* margin: 1%; */
-    width: 32%;
+    /* margin: 1%; 
+    width: 32%;*/
     background: white;
-    border-radius: 10px;
+    box-sizing: border-box;
+    /* border-radius: 10px;
+    background: red; */
 }
 .styleImagen{
 grid-area: styleImagen;
+width: 100%;
+padding: 10px;
 }
 .style-marca{
     grid-area: style-marca;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 20px;
-
+    padding: 30px;
 }
 .style-modelo{
     grid-area: style-modelo;
+    padding: 20px;
+    font-size: 2em;    
+    font-weight: bold;
 }
 .style-anyo{
     grid-area: style-anyo;
+    color: rgb(8, 8, 8);
+    /* font-weight: bold; */
+    padding: 20px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 800px){
+    .style-marca{
+        padding: 30px;
+        font-size: 1em;
+    
+    }
+    .style-modelo{
+        padding-top: 30px;
+    }
+    .style-anyo{
+        font-size: 1em;
+        padding-top: 40px;
+    }
 }
 
 

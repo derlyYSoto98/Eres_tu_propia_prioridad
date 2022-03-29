@@ -79,10 +79,10 @@ function registrarProducto() {
 
 }
 function limpiarFormulario() {
-    document.getElementById("codigo").innerHTML="";
-    document.getElementById("descripcion").innerHTML="";
-    document.getElementById("valorUnitario").innerHTML="";
-    document.getElementById("stock").innerHTML="";
+    document.getElementById("codigo").value="";
+    document.getElementById("descripcion").value="";
+    document.getElementById("valorUnitario").value="";
+    document.getElementById("stock").value="";
 }
 
 function validarFormulario(){

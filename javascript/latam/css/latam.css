@@ -27,11 +27,11 @@ header .fa-solid{
     border-radius: 5px;
     background-color: rgb(202, 30, 30);
     display: grid;
-    grid-template:  "styleEconomico         empty                empty"          35px 
-                    "styleSalida            styleTextoDuracion   styleLlegada"   25px 
-                    "style-origen           styleDuracion        style-destino"  35px 
-                    "linea                  linea                linea"          10px
-                    "style-VueloDirecto     style-VueloDirecto   style-precio"   55px/ 
+    grid-template:  "styleEconomico         empty                empty"          45px 
+                    "styleSalida            styleTextoDuracion   styleLlegada"   35px 
+                    "style-origen           styleDuracion        style-destino"  45px 
+                    "linea                  linea                linea"          20px
+                    "style-VueloDirecto     style-VueloDirecto   style-precio"   65px/ 
                        33%                     33%                    33%;
     background: white;
     padding: 0 20px 20px 0;

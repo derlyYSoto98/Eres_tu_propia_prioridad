@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.transicion1{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+    transition: .5s;
+}
+.transicion1:hover{
+ width: 300px;
+ height: 250px;
+ border: 8px solid blue;
+}
+
+.transicion2{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;  
+    transition: .5s; 
+}
+.transicion2:hover{
+    width: 300px;
+    border: 8px solid blue;
+    background: gray;
+    transition: .5s;
+}
+
+
+.transicion3a{
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+     background-color: transparent; 
+}
+
+.transiscion3{
+    width: 0;
+    height: 500px;
+    /* clip-path: circle(50%); */
+     background-image: url("https://picsum.photos/500/500"); 
+    transition: width 2s, height 1s;    
+}
+.transicion3a:hover .transiscion3{
+    width: 500px;
+    height: 500px;
+}
+.transicion3b{
+    width: 500px;
+    height: 500px;
+    background-image: url("https://picsum.photos/500/500");
+    transition: background-image 1s;  
+
+}
+.transicion3b:hover{
+    background-image: url("https://picsum.photos/510/510");
+    transition: background-image 1s;
+}
+.translation1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(64,64,64.7);
+    transition: transform 1s;
+}
+.translation1:hover {
+    transform: translate(20%, 20%);
+}
+.translation2 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(41, 41, 202);
+    transition: transform 1s;
+}
+.translation2:hover {
+    transform: translate(-20%, -20%);
+}
+.translation3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(79, 117, 30);
+    transition: transform 1s;
+    transform: scale(0.1);
+}
+.translation3:hover {
+    transform: translate(-60%, -60%);
+}
+
+.transition5{
+   width: 0;
+   height: 0;
+
+}
+.transition6{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background: red;
+    transition: width 1s, height 1s, transform 1s;
+    transform: translate(-10%, -10%);
+}
+#boton{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.botonPoputInvisible{
+    display: none;
+}
+.botonCerrar{
+    display: none;
+}
+.botonCerrarVisible{
+    display: block;
+}

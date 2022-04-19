@@ -4,30 +4,31 @@ let popup = document.getElementById("popup");
 let btnCerrarPopUp = document.getElementById("btn-cerrar-popup");
 
 const lupa = document.getElementById("idLupa");
-lupa.addEventListener("click", miFunction);
+lupa.addEventListener("click", abrirBusqueda);
 
-function miFunction() {
-    document.getElementById("idHeader").innerHTML = "";
-    llamarNuevaVentana();
+const cerrar = document.getElementById("cerrardos");
+lupa.addEventListener("click", cerrarBusqueda);
+
+
+function abrirBusqueda(){
+    let removerEncabezado = document.getElementById("idHeader");
+    removerEncabezado.classList.add("header2Invisible");
+    let nuevoHeader = document.getElementById("header2");
+    nuevoHeader.classList.remove("header2Invisible");
+    nuevoHeader.classList.add("header2visible");
+
 }
 
-function llamarNuevaVentana() {
-    let contenedorNuevo = document.createElement("div");
-    let contenedorOld = document.getElementById("idHeader");
-    contenedorOld.appendChild(contenedorNuevo);
-    contenedorNuevo.setAttribute("class", "contenedor-nuevo");
-
-    let iconoLupa = document.createElement("img");
-    let contenedor = document.getElementById("idHeader");
-    contenedor.appendChild(iconoLupa);
-    
-
-    let inputNuevo = document.createElement("input");
-    contenedor.appendChild(inputNuevo);
-    inputNuevo.setAttribute("type", "text");
-    inputNuevo.setAttribute("class", "input-nuevo");
+/* function cerrarBusqueda(){
+    let removeHeader2 = document.getElementById("header2");
+    removeHeader2.classList.remove("header2visible");
+    removeHeader2.classList.add("header2Invisible");
+    let addHeader1 = document.getElementById("idHeader");
+    addHeader1 =classList.remove("headerInvisible");
 }
+ */
 function openPopup() {
     let popup = document.getElementById("popup");
     popup.classList.add("open-popup");
 }
+

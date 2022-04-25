@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/sodima.png">
     <link rel="stylesheet" href="icons/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>Homecenter</title>
 </head>
 <body>
@@ -21,16 +22,31 @@
         <label class="icono-user"><img src="img/usuario.png"></label></label>
     </div>
 
-    <div id="header2" class="header2visible">
+    <div id="header2" class="header2Invisible">
         <input type="text" class="inputNuevo" placeholder="Que estas buscando?">
-        <img src="img/vectorLupa.png" width="50px" alt="" class="lupados">
-       <label id="cerrardos" class="cerrarBus">x</label>
+        <img src="img/vectorLupa.png" class="lupados">
+       <label id="cerrardos" class="cerrarBuscador">x</label>
     </div>
 
-    
+    <!-- <img src="img/home1.png" class="imagenCentro"> -->
 
+    <div class="container style-container imagenCentro">
+      <div id="carouselExampleInterval" class="carousel slide imagenCentro" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active imagenCentro " data-bs-interval="2000">
+              <img src="img/home1.png" class="d-block w-100 imagenCentro" alt="...">
+            </div>
+            <div class="carousel-item imagenCentro" data-bs-interval="2000">
+              <img src="img/home2.png" class="d-block w-100 imagenCentro" alt="...">
+            </div>
+            <div class="carousel-item imagenCentro" data-bs-interval="2000">
+              <img src="img/home3.png" class="d-block w-100 imagenCentro" alt="...">
+            </div>
+          </div>
+        </div>
+  </div>
 
-    <!-- <div class="contenedor">
+    <div class="contenedor">
         <div id="btn-abrir-popup" class="boton-modal" onclick="openPopup();"><img src="img/betty-removebg-preview.png" width="70px" alt=""> Betty</div>
         <div id="popup" class="popup">
             <h3 class="titulo-form">Hola Soy Betty</h3>
@@ -42,9 +58,12 @@
                 </div>
             </form>
             <button class="btn" onclick="closePopup();"></button>
-        </div> -->
+        </div>
 
 
-    <script src="js/js.js"></script>c
+    <script src="js/js.js"></script>
 </body>
 </html>
+<script src="js/ popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/boostrap-offline.js"></script>

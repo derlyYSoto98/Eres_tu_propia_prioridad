@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: 0;
 }
-/* .popup {
+.popup {
     position: absolute;
     right: 0;
     bottom: -20px;
@@ -28,7 +28,7 @@
 .subtitulo-form {
     margin-top: 10px;
 }
-.btn-cerrar-popup {
+.btn-submit {
     font-size: 16px;
     line-height: 16px;
     display: block;
@@ -36,12 +36,12 @@
     color: #BBBBBB;
     transition: .3s ease all;
 }
-.btn-cerrar-popup:hover {
+.btn-submit:hover {
     color: black;
 }
 .active {
     visibility: visible;
-} */
+}
 .encabezado {
     display: grid;
     border-bottom: 3px solid rgba(0,0,0, .4);
@@ -105,7 +105,7 @@
     margin-top: 12px;
     margin-left: 10px;
 }
-/* .lupa-nueva {
+.lupa-nueva {
     width: 40%;
     height: 20px;
     inline-size: 20%;
@@ -114,8 +114,8 @@
 .input-nuevo {
     grid-area: input-nuevo;
     text-align: left;
-} */
-/* input:focus, textarea:focus {
+} 
+input:focus, textarea:focus {
     background-color: white;
 }
 input::placeholder {
@@ -177,34 +177,61 @@ form {
     border-radius: 7px;
     font-family: Lato, sans-serif;
 }
- */
-
 .header2visible {
     /* background-color: blue; */
     display: grid;
-    /* width: 100%; */
+    width: 100%;
+    height: 100%;
     grid-template:  "lupados  inputBuscar cerrar" 55px /
-                      1fr         80%     1fr ;    
+                      1fr         8fr     1fr ;    
 }
-
 .inputNuevo{
     /* background: red; */
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(116, 111, 111);
     grid-area: inputBuscar;
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+}
+.inputNuevo, .placeholder{
+   font-size: 1em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .lupados{
-grid-area: lupados;
-width: 40px;
-height: 40px;
+    grid-area: lupados;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: black;
+    padding-top: 10px;
+    padding-left: 30%;
 }
-.cerrarBus{
+.cerrarBuscador{
     grid-area: cerrar;
-    width: 40px;
-    height: 40px;
+    font-size: 2em;
     cursor: pointer;
+    padding-left: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /*  font-weight: bold; */
+    color: rgb(121, 119, 119); 
+    padding-top: -10px;  
 }
 .headerInvisible{
     display: none;
+}
+.header2Invisible{
+    display: none;
+}
+.header2visible{
+    display: hidden;
+}
+.imagenCentro{
+    position: fixed;
+    width: 100%;
 }
